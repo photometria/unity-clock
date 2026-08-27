@@ -5,7 +5,7 @@ A simple real-time analog clock made in Unity using C#. The clock uses the compu
 ## Overview
 This project renders an analog clock in Unity by mapping system time values to rotational transformations of clock hand objects. The clock updates continuously using Unity’s frame update loop.
 
-## Implementation Details
+## Details
 - Gets the current time using `DateTime.Now.TimeOfDay`
 - Converts the hours, minutes, and seconds into rotation angles
 - Hand movement implemented using `Quaternion.Euler`
